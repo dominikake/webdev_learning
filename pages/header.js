@@ -1,9 +1,9 @@
-import { Box, Text, Center } from "@chakra-ui/react";
+import { Box, Text, Flex } from "@chakra-ui/react";
 
 export default function PriceHeader(params) {
   return (
     <>
-      <Center>
+      <Flex justifyContent={"center"}>
         <Box>
           <Text fontSize={48} fontWeight={"800"} paddingTop={88.45}>
             Simple pricing for your business
@@ -18,7 +18,7 @@ export default function PriceHeader(params) {
             Plans that are carefully crafted to suit your business
           </Text>
         </Box>
-      </Center>
+      </Flex>
     </>
   );
 }
