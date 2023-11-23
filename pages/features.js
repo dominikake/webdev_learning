@@ -1,22 +1,31 @@
 import { SimpleGrid, Box, Icon } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
 export default function PriceFeatures(params) {
   return (
     <>
-      <SimpleGrid columns={3} color="black">
-        <Box>
-          <Icon></Icon>
-          30 days money back Guarantee
+      <Flex fontSize={18} fontWeight={700} justifyContent={"center"}>
+        <div>
+          <img src="/icons/shield.svg" alt="Icon 3" />
+        </div>
+        <Box paddingLeft={4} maxW={220}>
+          <Text noOfLines={2}>30 days money back Guarantee</Text>
         </Box>
-        <Box>
-          <Icon></Icon>
-          No setup fees 100% hassle-free
+        <div>
+          <img src="/icons/fee.svg" alt="Icon 3" />
+        </div>
+        <Box paddingLeft={4} maxW={220}>
+          <Text noOfLines={2}>No setup fees 100% hassle-free</Text>
         </Box>
-        <Box>
-          <Icon></Icon>
-          No monthly subscription Pay once and for all dsffdfss
+        <div>
+          <img src="/icons/subscription.svg" alt="Icon 3" />
+        </div>
+        <Box paddingLeft={4} maxW={220}>
+          <Text noOfLines={2}>
+            No monthly subscription Pay once and for all
+          </Text>
         </Box>
-      </SimpleGrid>
+      </Flex>
     </>
   );
 }
