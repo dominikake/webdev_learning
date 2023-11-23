@@ -5,10 +5,16 @@ export default function PriceHeader(params) {
     <>
       <Center>
         <Box>
-          <Text fontSize={"6xl"} fontWeight={"800"}>
+          <Text fontSize={48} fontWeight={"800"} paddingTop={88.45}>
             Simple pricing for your business
           </Text>
-          <Text opacity="84%">
+          <Text
+            fontSize={24}
+            fontWeight={"500"}
+            opacity="84%"
+            color={"gray.300"}
+            paddingTop={5}
+          >
             Plans that are carefully crafted to suit your business
           </Text>
         </Box>
