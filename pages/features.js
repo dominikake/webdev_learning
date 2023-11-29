@@ -14,13 +14,13 @@ export default function PriceFeatures(params) {
         <div>
           <img src="/icons/fee.svg" alt="Icon 3" />
         </div>
-        <Box paddingLeft={4} maxW={220}>
+        <Box paddingLeft={4} maxW={280}>
           <Text noOfLines={2}>No setup fees 100% hassle-free</Text>
         </Box>
         <div>
           <img src="/icons/subscription.svg" alt="Icon 3" />
         </div>
-        <Box paddingLeft={4} maxW={220}>
+        <Box paddingLeft={4} maxW={288}>
           <Text noOfLines={2}>
             No monthly subscription Pay once and for all
           </Text>
